@@ -166,7 +166,7 @@ def s3extract_csvzip(**opt):
 
 
 s3extract_csvzip(
-        bucket="epdam-sandbox-test-inventory-report-nike",
+        bucket="s3_bucket_name",
         condition="4",
         region="us-east-2",
         folder="data",
