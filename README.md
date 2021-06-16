@@ -1,7 +1,7 @@
 # boto_s3_bucket_download
 Downlaod and zip a bucket
 
-# Dependencies (test.py)
+# Dependencies (test4.py)
 1. Version: Python 3.8.5
 2. Module Names:
    * boto3 (external)
@@ -22,6 +22,10 @@ Downlaod and zip a bucket
    * gztar: gzip’ed tar-file (if the zlib module is available).
    * bztar: bzip2’ed tar-file (if the bz2 module is available).
    * xztar: xz’ed tar-file (if the lzma module is available).
+
+#OLD
+1. test.py is old.
+2. It failed if directory path not available. test4.py verifies and creates path if necessary. 
 
 #OLD
 1. test_0.py is old.
