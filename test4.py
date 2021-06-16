@@ -130,7 +130,7 @@ def s3extract_csvzip(**opt):
 
 
 s3extract_csvzip(
-        bucket="epdam-sandbox-test-inventory-report-nike",
+        bucket="bucket name here",
         condition="xztar",
         region="us-east-2",
         root_path="/home/akatsuki/aws_s3/new/s3"
